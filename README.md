@@ -82,14 +82,14 @@ Toggle the input switch and observe output `Z`.
 
 | X | Z |
 |---:|---:|
-| 0 | ___ |
-| 1 | ___ |
+| 0 | 0
+| 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an inverter?**
 
-> _Write your answer here._
+because it switches on and off
 
 ---
 
@@ -112,16 +112,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an AND gate?**
 
-> _Write your answer here._
+because if x AND y are 1 that means it'll be 1 aka on
 
 ---
 
@@ -144,16 +144,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called a NAND gate?**
 
-> _Write your answer here._
+
 
 ---
 
@@ -178,16 +178,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1  |
+| 1 | 1 | 1  |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an OR gate?**
 
-> _Write your answer here._
+
 
 ---
 
@@ -210,16 +210,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called a NOR gate?**
 
-> _Write your answer here._
+
 
 ---
 
@@ -242,16 +242,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an XOR gate, or exclusive OR gate?**
 
-> _Write your answer here._
+because it only works when it's either 1 and 0 or 0 and 1 
 
 ## Truth-Table Pattern
 
