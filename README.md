@@ -82,14 +82,14 @@ Toggle the input switch and observe output `Z`.
 
 | X | Z |
 |---:|---:|
-| 0 | ___ |
-| 1 | ___ |
+| 0 | 0 |
+| 1 | 1 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an inverter?**
 
-> _Write your answer here._
+Because it switches back and forth
 
 ---
 
@@ -112,16 +112,15 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an AND gate?**
-
-> _Write your answer here._
+ Because it only works if both x AND y are 1, and z will turn on aka 1
 
 ---
 
@@ -144,16 +143,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called a NAND gate?**
 
-> _Write your answer here._
+Because it will work in any case except when both are of; one has to be at least one for z to turn on.
 
 ---
 
@@ -178,16 +177,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called an OR gate?**
 
-> _Write your answer here._
+Because both X and Y have to be 0 aka off for Z to be 1 aka on
 
 ---
 
@@ -210,16 +209,16 @@ Toggle the input switches and observe output `Z` for every input combination.
 
 | X | Y | Z |
 |---:|---:|---:|
-| 0 | 0 | ___ |
-| 0 | 1 | ___ |
-| 1 | 0 | ___ |
-| 1 | 1 | ___ |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
 ### Reflection
 
 **From your truth table, why do you think this gate is called a NOR gate?**
 
-> _Write your answer here._
+Because in X and Y, one has to be off while the other is on to have Z turn on
 
 ---
 
@@ -359,36 +358,36 @@ In this test circuit:
 
 | Switch Action | T State | Q Output | NOT_Q Output | Observation |
 |---|---:|---:|---:|---|
-| Starting condition | 0 | ___ | 0 | ___ |
-| Move switch from GND to VCC | 1 | ___ | ___ | ___ |
-| Move switch from VCC to GND | 0 | ___ | ___ | ___ |
-| Toggle switch one more time | ___ | ___ | ___ | ___ |
+| Starting condition | 0 | 1 | 0 | Q turns on |
+| Move switch from GND to VCC | 1 | 0 | 1 | Q is the only one off |
+| Move switch from VCC to GND | 0 | 0 | 1 | data in and -Q are the only on |
+| Toggle switch one more time | 1 | 1 | 0 | Q is the only the on again |
 
 ### Analysis Questions
 
 **What happens to output `Q` when switch `T` moves from GND to VCC?**
 
-> _Write your answer here._
+Q turns off
 
 **What happens to output `Q` when switch `T` moves from VCC to GND?**
 
-> _Write your answer here._
+Q is still off
 
 **What does your observation tell you about when `Q` changes relative to changes at the `CLK` input?**
 
-> _Write your answer here._
+Q is the only one on 
 
 **What is the relationship between `Q` and `NOT_Q`?**
 
-> _Write your answer here._
+Both don't turn on; one has to be on and the other off; both are never on 
 
 **What is the relationship between data input `D` and output `Q`?**
 
-> _Write your answer here._
+Q is only on when Data in is not on 
 
 **Based on your observations, explain the relationship among `D`, `Q`, `NOT_Q`, and `CLK`. What does a flip-flop do?**
 
-> _Write your answer here._
+
 
 ### Reflection
 
