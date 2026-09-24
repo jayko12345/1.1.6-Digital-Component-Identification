@@ -387,13 +387,13 @@ Q is only on when Data in is not on
 
 **Based on your observations, explain the relationship among `D`, `Q`, `NOT_Q`, and `CLK`. What does a flip-flop do?**
 
-
+ The flip-flop only turns on two lights, and every 3rd switch, one other light turns off
 
 ### Reflection
 
 **In this investigation, you changed the flip-flop state by manually toggling a switch. How could a flip-flop change states without direct human input?**
 
-> _Write your answer here._
+By adding a 555 timer to make it tick
 
 ---
 
